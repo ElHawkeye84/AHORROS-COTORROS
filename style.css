@@ -6,6 +6,68 @@
     padding: 0;
 }
 
+/* Estilos básicos */
+.AHORROCOTORRO {
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    max-width: 400px;
+}
+
+/* Animación de color */
+.animated-text {
+    color: #ff6f61; /* Color inicial */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    animation: color-change 3s infinite; /* Duración y repetición infinita */
+}
+
+/* Animación definida con @keyframes */
+@keyframes color-change {
+    0% {
+        color: #ff6f61; /* Color inicial */
+    }
+    50% {
+        color: #ffcc00; /* Color intermedio */
+    }
+    100% {
+        color: #ff6f61; /* Color final (regreso al inicio) */
+    }
+}
+
+
+.intro {
+    background-color: #f4f4f4; /* Fondo claro para destacar el texto */
+    padding: 2rem; /* Espaciado interno para un diseño limpio */
+    border-radius: 10px; /* Bordes redondeados para un diseño más suave */
+    text-align: center; /* Centrar el texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para resaltar la sección */
+    margin: 1rem auto; /* Margen superior e inferior, centrado horizontalmente */
+    max-width: 600px; /* Limitar el ancho para un diseño más enfocado */
+}
+
+.intro h1 {
+    color: #ff6f61; /* Color vibrante para captar atención */
+    font-size: 2rem; /* Tamaño de fuente del encabezado */
+    margin-bottom: 1rem; /* Separar el encabezado del párrafo */
+}
+
+.intro p {
+    color: #333; /* Color oscuro para texto principal */
+    line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+    margin-bottom: 1rem; /* Separar los párrafos */
+}
+
+.intro strong {
+    color: #ff4a3d; /* Resaltar palabras importantes */
+}
+ 
+
+
+
 ul, ol{
     list-style: none;
 }
